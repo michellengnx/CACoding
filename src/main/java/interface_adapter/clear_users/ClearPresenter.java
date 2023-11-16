@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class ClearPresenter implements ClearOutputBoundary {
 
     private final ClearViewModel clearViewModel;
-    private ViewManagerModel viewManagerModel;
+    private final ViewManagerModel viewManagerModel;
 
     public ClearPresenter(ClearViewModel clearViewModel, ViewManagerModel viewManagerModel) {
         this.clearViewModel = clearViewModel;

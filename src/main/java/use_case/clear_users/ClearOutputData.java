@@ -7,7 +7,7 @@ public class ClearOutputData {
 
     private final ArrayList<String> users;
 
-    private boolean useCaseFailed;
+    private final boolean useCaseFailed;
 
 
     public ClearOutputData(ArrayList<String> users, boolean useCaseFailed) {

@@ -14,7 +14,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDateTime;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
 
 public class ClearUsersTest {
