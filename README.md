@@ -62,6 +62,11 @@ tabs around if you like.)
 
 **Thought question:** Why doesn't the `LoginInteractor` have a `UserFactory`?
 
+**Michelle: UserFactory in the `SignupInteractor` is to create a new user and add to the .csv file. 
+**
+There is no need for the `LoginInteractor` to have the same. The mechanism for logging in is to compare 
+against the .csv file to check if the user exists.
+
 #### Remnants of a bug
 
 Compare the two `execute` methods carefully. Look at the variable types
