@@ -1,5 +1,9 @@
 # Clean Architecture
 
+## Maven build tool and Docker
+
+This is an extension of csc207 week 5 coding exercise, where I added Maven build tool support and Dockerize the project
+
 ## Preamble
 
 This is a 2-week coding exercise.
@@ -62,8 +66,7 @@ tabs around if you like.)
 
 **Thought question:** Why doesn't the `LoginInteractor` have a `UserFactory`?
 
-**Michelle: UserFactory in the `SignupInteractor` is to create a new user and add to the .csv file. 
-**
+**Michelle: UserFactory in the `SignupInteractor` is to create a new user and add to the .csv file.**
 There is no need for the `LoginInteractor` to have the same. The mechanism for logging in is to compare 
 against the .csv file to check if the user exists.
 
